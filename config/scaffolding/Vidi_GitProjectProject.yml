@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: Vidi_GitProjectProject
+  gitServerName: vidi
+  gitUrl: https://github.com/vijetadixit
+  gitUsername: vijetadixit
+  gitBranch: viditest
