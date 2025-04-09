@@ -5,11 +5,11 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="SIQA_OriginTest_OnPremAssets_new" SERVICE="Basics_1:ComplexFS" DISABLED="true">
+<INVOKE NAME="SIQA_OriginTest_OnPremAssets_new" SERVICE="Basics_1:ComplexFS">
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="SIQA_OriginTest_OnPremAssets_new" SERVICE="Basics_1:Basic_Flow">
+<INVOKE NAME="SIQA_OriginTest_OnPremAssets_new" SERVICE="Basics_1:Basic_Flow" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
