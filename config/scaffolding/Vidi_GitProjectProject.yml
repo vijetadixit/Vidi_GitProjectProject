@@ -14,7 +14,7 @@ packages:
   gitUsername: vijetadixit
   gitBranch: vidi9April
 services:
-- serviceName: project.vidi_gitproject.integrations:Test1
+- serviceName: project.vidi_gitproject.integrations:Copy_Test1
   packages:
   - name: Vidi_GitProjectProject
     version: "1.0"
@@ -74,5 +74,11 @@ services:
     version: 11.1.0.0.2043
 - serviceName: SOAP_1_1:showDateAndTime
   packages:
+  - name: SIQA_OriginTest_OnPremAssets_new
+    version: "1.0"
+- serviceName: project.vidi_gitproject.integrations:Test1
+  packages:
+  - name: Vidi_GitProjectProject
+    version: "1.0"
   - name: SIQA_OriginTest_OnPremAssets_new
     version: "1.0"
