@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vijeta.dixit@ibm.com</value>
-    <value name="lastModifiedDate">1744195362363</value>
+    <value name="lastModifiedDate">1744198656977</value>
     <value name="displayName">Test1</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -69,6 +69,8 @@
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -91,6 +93,8 @@
         <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">2</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">1</value>
       </record>
     </record>
   </record>
