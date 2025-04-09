@@ -8,7 +8,71 @@ packages:
   gitUsername: vijetadixit
   gitBranch: viditest
 - name: SIQA_OriginTest_OnPremAssets_new
+  version: "1.0"
   gitServerName: vidi
   gitUrl: https://github.com/vijetadixit
   gitUsername: vijetadixit
   gitBranch: vidi9April
+services:
+- serviceName: project.vidi_gitproject.integrations:Test1
+  packages:
+  - name: Vidi_GitProjectProject
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets_new
+    version: "1.0"
+- serviceName: Basics_1:ComplexFS
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets_new
+    version: "1.0"
+- serviceName: Basics_1:Basic_Flow
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets_new
+    version: "1.0"
+- serviceName: pub.math:divideInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2043
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2043
+- serviceName: pub.math:subtractInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2043
+- serviceName: pub.math:multiplyIntList
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2043
+- serviceName: Basics_1:mapservice
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets_new
+    version: "1.0"
+- serviceName: Basics_1:TryCatch
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets_new
+    version: "1.0"
+- serviceName: Map_1:TestFlow
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets_new
+    version: "1.0"
+- serviceName: REST_1_1.CurrentDateAndTime:_get
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets_new
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2043
+- serviceName: pub.string:objectToString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2043
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2043
+- serviceName: SOAP_1_1:showDateAndTime
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets_new
+    version: "1.0"
