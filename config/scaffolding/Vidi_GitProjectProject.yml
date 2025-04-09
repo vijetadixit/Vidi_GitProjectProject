@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/vijetadixit
   gitUsername: vijetadixit
   gitBranch: viditest
+- name: SIQA_OriginTest_OnPremAssets_new
+  gitServerName: vidi
+  gitUrl: https://github.com/vijetadixit
+  gitUsername: vijetadixit
+  gitBranch: vidi9April
