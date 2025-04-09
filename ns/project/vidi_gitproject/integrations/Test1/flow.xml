@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="SIQA_OriginTest_OnPremAssets_new" SERVICE="Basics_1:ComplexFS">
+<INVOKE NAME="SIQA_OriginTest_OnPremAssets_new" SERVICE="Basics_1:ComplexFS" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 
