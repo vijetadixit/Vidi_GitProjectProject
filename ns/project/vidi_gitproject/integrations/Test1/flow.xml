@@ -9,7 +9,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="SIQA_OriginTest_OnPremAssets_new" SERVICE="Basics_1:Basic_Flow" DISABLED="true">
+<INVOKE NAME="SIQA_OriginTest_OnPremAssets_new" SERVICE="Basics_1:Basic_Flow">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
