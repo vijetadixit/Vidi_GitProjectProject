@@ -76,15 +76,3 @@ services:
   packages:
   - name: SIQA_OriginTest_OnPremAssets_new
     version: "1.0"
-- serviceName: Basics_1:GetFile
-  packages:
-  - name: SIQA_OriginTest_OnPremAssets_new
-    version: "1.0"
-- serviceName: pub.file:getFile
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2043
-- serviceName: pub.string:bytesToString
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2043
