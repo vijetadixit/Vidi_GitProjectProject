@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<FLOW VERSION="1.0" CLEANUP="false">
+<FLOW VERSION="3.0" CLEANUP="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -9,7 +9,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="SIQA_OriginTest_OnPremAssets_new" SERVICE="Basics_1:Basic_Flow" DISABLED="true">
+<INVOKE NAME="SIQA_OriginTest_OnPremAssets_new" SERVICE="Basics_1:Basic_Flow">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
